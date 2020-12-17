@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/idact"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID ACTIVIDAD: " />
+    <EditText
+        android:id="@+id/Actdescrip"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+    <EditText
+        android:id="@+id/Actfecha_cap"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Fecha captura"/>
+    <EditText
+        android:id="@+id/Actfecha_ent"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Fecha entrega"/>
+
+    <Button
+        android:id="@+id/buttonActAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR ACTIVIDAD" />
+
+    <Button
+        android:id="@+id/buttonEliminarActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR ACTIVIDAD" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR" />
+
+</LinearLayout>
